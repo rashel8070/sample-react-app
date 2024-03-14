@@ -1,6 +1,6 @@
 import axios, { AxiosError } from "axios";
 
-const API_URL = "https://miniature-yodel-9p997rgv4v4274p5-3000.app.github.dev/";
+const API_URL = "https://github.com/CDT-UEL/sample-react-app.git";
 
 export const getWeatherData = async (city: string): Promise<WeatherData> => {
   return new Promise<WeatherData>((resolve, reject) => {
